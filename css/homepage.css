@@ -1,0 +1,135 @@
+/* ----------------------背景---------------------- */
+body{
+    background-color: #1a1a1a;
+}
+/* ----------------------背景结束---------------------- */
+
+
+/* ----------------------1000px版心---------------------- */
+.A__centerpage{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+}
+/* ----------------------1000px版心结束---------------------- */
+
+
+/* ----------------------所有盒子的标准宽度---------------------- */
+.B__w{
+    width: 900px;
+    padding-top: 45px;
+    margin: 0 auto;
+}
+/* ----------------------所有盒子的标准宽度结束---------------------- */
+
+
+/* ----------------------头部---------------------- */
+/* h1优化 */
+.C__hearder h1{
+    color: white;
+    font-family: "Courier New", Monospace;
+    font-size: 0px;
+}
+
+/* 网站像素字 */
+.C__hearder pre{
+    color: white;
+    font-family: "Courier New", Monospace;
+    font-size: 13px;
+    font-weight: 400;
+}
+/* ----------------------头部结束---------------------- */
+
+
+/* ----------------------通栏---------------------- */
+.C__nav{
+    padding-top: 15px;
+}
+
+/* 中间的选项 */
+.D__bar{
+    height: 18px;
+    border-left: 1px solid #fff;
+}
+
+/* 中间的选项 */
+.D__bar li{
+    float: left;
+    padding: 0 20px;
+    height: 18px;
+    border-right: 1px solid #fff;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* a连接的颜色 */
+.D__bar a{
+    color: #00ff0c;
+}
+
+/* ----------------------通栏结束---------------------- */
+
+
+/* ----------------------网站说明开始---------------------- */
+.C__explain{
+    padding-top: 40px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+/* ----------------------网站说明结束---------------------- */
+
+
+/* ----------------------文章开始---------------------- */
+/* 文章整体盒子 */
+.C__article{
+    padding-top: 50px;
+}
+
+/* 文章列表文字 */
+.D__articleList{
+    padding-bottom: 28px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/* 文章标题与时间 */
+.D__articleTitle div{
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.D__articleTitle span{
+    display: inline-block;
+    margin-right: 25px;
+    color: #7f7f7f;
+}
+
+.D__articleTitle a{
+    color: white;
+}
+
+
+/* ----------------------文章结束---------------------- */
+
+
+/* ----------------------足部开始---------------------- */
+.B__footer{
+    height: 45px;
+    margin-top: 50px;
+    border-top: 1px solid white;
+}
+
+/* 文字 */
+.C__text{
+    float: right;
+    padding-top: 5px;
+    color: white;
+    font-size: 10px;
+}
+
+/* ----------------------足部结束---------------------- */
