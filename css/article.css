@@ -117,6 +117,7 @@ body{
     color: white;
     font-size: 18px;
     line-height: 28px;
+    text-align: justify;
 }
 
 /* 文章图片 */

@@ -85,6 +85,10 @@ body{
     color: #00ff0c;
 }
 
+.D__bar a:hover{
+    text-decoration: underline
+}
+
 /* ----------------------通栏结束---------------------- */
 
 
@@ -125,11 +129,14 @@ body{
     color: #7f7f7f;
 }
 
+/* 文章标题链接 */
 .D__articleTitle a{
     color: white;
 }
 
-
+.D__articleTitle a:hover{
+    text-decoration: underline
+}
 /* ----------------------文章结束---------------------- */
 
 
