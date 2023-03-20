@@ -24,6 +24,22 @@ body{
 
 
 /* ----------------------头部---------------------- */
+/* 头部 */
+.C__hearder{
+    position: relative;
+}
+
+/* LOGO */
+.D__logo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.D__logo img{
+    height: 115px;
+}
+
 /* h1优化 */
 .C__hearder h1{
     color: white;

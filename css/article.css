@@ -24,6 +24,22 @@ body{
 
 
 /* ----------------------头部---------------------- */
+/* 头部 */
+.C__hearder{
+    position: relative;
+}
+
+/* LOGO */
+.D__logo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.D__logo img{
+    height: 115px;
+}
+
 /* h1优化 */
 .C__hearder h1{
     color: white;
@@ -100,6 +116,7 @@ body{
     margin-bottom: 25px;
     color: white;
     font-size: 18px;
+    line-height: 28px;
 }
 
 /* 文章图片 */
@@ -141,6 +158,16 @@ body{
     line-height: 17px;
     font-weight: 700;
     font-size: 17px;
+}
+
+/* 文章链接 */
+.D__articleContent a{
+    color: #00ff0c;
+    text-decoration: underline;
+}
+
+.D__articleContent a:hover{
+    color: #ff0000;
 }
 
 
