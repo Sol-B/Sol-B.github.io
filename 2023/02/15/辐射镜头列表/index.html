@@ -24,11 +24,23 @@
       <link rel="shortcut icon" href="/img/favicon.ico"/>
 
       <!-- 引入css -->
-      
+      <!-- css媒体查询前摇 必须前摇否则在手机上不生效 -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <!-- 通用CSS -->
       <link rel="stylesheet" type="text/css" href="/css/base.css">
-      <link rel="stylesheet" type="text/css" href="/css/homepage.css">
+      
+      <!-- 主页CSS -->
+      <!-- 桌面端 -->
+      <link media="all and (min-width: 901px)" rel="stylesheet" type="text/css" href="/css/homepageDesktop.css">
+      <!-- 移动端 -->
+      <link media="all and (max-width: 900px)" rel="stylesheet" type="text/css" href="/css/homepageMobile.css">
+  
       <!-- 引入文章页面CSS -->
-      <link rel="stylesheet" type="text/css" href="/css/article.css">
+      <!-- 桌面端 -->
+      <link media="all and (min-width: 901px)" rel="stylesheet" type="text/css" href="/css/articleDesktop.css">
+      <!-- 移动端 -->
+      <link media="all and (max-width: 900px)" rel="stylesheet" type="text/css" href="/css/articleMobile.css">
+
 
     <meta name="generator" content="Hexo 5.4.2"></head>
 
@@ -40,22 +52,15 @@
         <!-- 所有盒子的标准宽度 -->
         <div class="B__w ">
 
-
           <!-- 头部 -->
           <header class="C__hearder">
-<h1>瓢虫箱</h1>
-<a href="javascript:;" title="瓢虫箱">
-<pre>                                                                                                                         
-██╗      █████╗ ██████╗ ██╗   ██╗██████╗ ██╗██████╗ ██████╗     ██████╗  ██████╗ ██╗  ██╗
-██║     ██╔══██╗██╔══██╗╚██╗ ██╔╝██╔══██╗██║██╔══██╗██╔══██╗    ██╔══██╗██╔═══██╗╚██╗██╔╝
-██║     ███████║██║  ██║ ╚████╔╝ ██████╔╝██║██████╔╝██║  ██║    ██████╔╝██║   ██║ ╚███╔╝ 
-██║     ██╔══██║██║  ██║  ╚██╔╝  ██╔══██╗██║██╔══██╗██║  ██║    ██╔══██╗██║   ██║ ██╔██╗ 
-███████╗██║  ██║██████╔╝   ██║   ██████╔╝██║██║  ██║██████╔╝    ██████╔╝╚██████╔╝██╔╝ ██╗
-╚══════╝╚═╝  ╚═╝╚═════╝    ╚═╝   ╚═════╝ ╚═╝╚═╝  ╚═╝╚═════╝     ╚═════╝  ╚═════╝ ╚═╝  ╚═╝
-</pre>
-</a>
+            <h1>瓢虫箱
+              <a href="/" title="瓢虫箱">
+                <div class="D__logoText"><img src="/img/logoText.png"></div>
+              </a>
+            </h1>
 
-<div class="D__logo"><img src="/img/logo.png"></div>
+            <div class="D__logo"><img src="/img/logo.png"></div>
           </header>
           <!-- 头部结束 -->
 
@@ -141,9 +146,5 @@
       </div>
 
     </body>
-
-    <!-- 引入文章页面js -->
-    <!-- 图片外边距计算 -->
-    <script src="/js/article-img.js"></script>
     
 </html>

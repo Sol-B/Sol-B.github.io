@@ -104,34 +104,21 @@
           <!-- 文章列表 -->
           <article class="C__article">
 
-    <div class="D__articleTitle">Hexo基础操作及常见错误解决方案</div>
+    <div class="D__articleTitle">如何做出好的包装设计？</div>
 
     <div class="D__articleContent">
-        <div class="D__articleContent-time">2023-01-20 安河藏山</div>
-        <h3 id="⚪文件目录"><a href="#⚪文件目录" class="headerlink" title="⚪文件目录"></a>⚪文件目录</h3><p>public：目录下存放的是我们生成的「静态页面」<br>source/_posts：目录下存放的是我们写的「文章」；<br>themes：目录下存放的是「博客」的主题；<br>_config.yml：是「博客全局配置」文件；<br>_config.landscape.yml：是「博客主题配置」文件</p>
-<h3 id="⚪Hexo-常用命令"><a href="#⚪Hexo-常用命令" class="headerlink" title="⚪Hexo 常用命令"></a>⚪Hexo 常用命令</h3><pre><code>hexo n &quot;postName&quot;  // 新建文章
+        <div class="D__articleContent-time">2023-04-11 安河藏山</div>
+        <p>你好，我是安河藏山，如您所见这是我的个人博客。我是一个不会画画的设计师，四分之一个程序员，以及黑白胶片爱好者，我会在这里记录我的艺术作品。</p>
+<p>这个网站几经毁灭，就像我的人生，身世浮沉雨打萍。但是，都被我抢救回来了，从Wordpress开始到现在的Hexo,一路走来历经坎坷。因为我一直坚信有付出就有回报，现在我连服务器续费的钱都拿不出了，只能把它放在Github上，这是当下最优的解法了。毕竟当初我差一点就放弃了域名，不过好在现在一切都过来了，未来我会倾尽所能继续续费这个域名，因为它对于我来说有着十分重要的意义。</p>
+<h1 id="⚪文件目录"><a href="#⚪文件目录" class="headerlink" title="⚪文件目录"></a>⚪文件目录</h1><h2 id="⚪文件目录-1"><a href="#⚪文件目录-1" class="headerlink" title="⚪文件目录"></a>⚪文件目录</h2><h3 id="⚪文件目录-2"><a href="#⚪文件目录-2" class="headerlink" title="⚪文件目录"></a>⚪文件目录</h3><h4 id="⚪文件目录-3"><a href="#⚪文件目录-3" class="headerlink" title="⚪文件目录"></a>⚪文件目录</h4><p><code>hexo-deployer-git</code></p>
+<div class="Fu_img"><img src="/2022/12/15/瓢虫箱NFT项目说明/01.jpg" /></div>
+
+<pre><code>hexo n &quot;postName&quot;  // 新建文章
 hexo clean  // 清除缓存
 hexo g  // 生成静态网页
-hexo s http://localhost:4000/  // 本地预览
+hexo s http://localhost:4000/  // 本地预览hexo s http://localhost:4000/  // 本地预览hexo s http://localhost:4000/  // 本地预览hexo s http://localhost:4000/  // 本地预览
 hexo d  // 部署到Github
 </code></pre>
-<h3 id="⚪推送到Github"><a href="#⚪推送到Github" class="headerlink" title="⚪推送到Github"></a>⚪推送到Github</h3><p>在VsCode中打开blog文件夹，找到_config.yml文件，找到deploy，按照以下格式进行修改：</p>
-<pre><code>deploy:
-  type: git
-  repo: git@github.com:你的用户名/你的用户名.github.io.git
-  branch: master
-
-deploy:
-  type: git
-  repo: git@Sol-B:Sol-B/Sol-B.github.io.git  // 如果有两个推送库Sol-B是库的别称
-  branch: master
-</code></pre>
-<h3 id="❌错误01"><a href="#❌错误01" class="headerlink" title="❌错误01"></a>❌错误01</h3><p><strong>hexo d命令报错ERROR Deployer not found: git</strong></p>
-<p>这是因为没安装 <code>hexo-deployer-git</code> 插件，在站点目录下输入下面的插件安装就好了：</p>
-<pre><code>npm install hexo-deployer-git --save
-</code></pre>
-<h3 id="❌错误02"><a href="#❌错误02" class="headerlink" title="❌错误02"></a>❌错误02</h3><p><strong>解决hexo文章推送后自定义域名失效</strong></p>
-<p>在 source 下创建名为 CNAME 文件，不带文件后缀，并自定义域名 <code>（www.XXXXX.com）</code> 写入其中，注意前面要加www。</p>
 <div class="D__articleState">
     文章来源：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/552639819"> https://zhuanlan.zhihu.com/p/552639819</a>
 </div>

@@ -1,0 +1,153 @@
+/* ----------------------背景---------------------- */
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+}
+/* ----------------------背景结束---------------------- */
+
+
+/* ----------------------1000px版心---------------------- */
+.A__centerpage{
+    width: 900px;
+    background-color: #1a1a1a;
+}
+/* ----------------------1000px版心结束---------------------- */
+
+
+/* ----------------------所有盒子的标准宽度---------------------- */
+.B__w{
+    padding-top: 45px;
+}
+/* ----------------------所有盒子的标准宽度结束---------------------- */
+
+
+/* ----------------------头部---------------------- */
+/* 头部 */
+.C__hearder{
+    position: relative;
+}
+
+/* LOGO */
+.D__logo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.D__logo img{
+    height: 105px;
+}
+
+/* h1优化 */
+.C__hearder h1{
+    font-size: 0px;
+}
+
+/* 网站像素字 */
+.D__logoText img{
+    height: 105px;
+}
+/* ----------------------头部结束---------------------- */
+
+
+/* ----------------------通栏---------------------- */
+.C__nav{
+    padding-top: 15px;
+}
+
+/* 中间的选项 */
+.D__bar{
+    height: 18px;
+    border-left: 1px solid #fff;
+}
+
+/* 中间的选项 */
+.D__bar li{
+    float: left;
+    padding: 0 20px;
+    height: 18px;
+    border-right: 1px solid #fff;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* a连接的颜色 */
+.D__bar a{
+    color: #00ff0c;
+}
+
+.D__bar a:hover{
+    text-decoration: underline
+}
+
+/* ----------------------通栏结束---------------------- */
+
+
+/* ----------------------网站说明开始---------------------- */
+.C__explain{
+    padding-top: 40px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+/* ----------------------网站说明结束---------------------- */
+
+
+/* ----------------------文章开始---------------------- */
+/* 文章整体盒子 */
+.C__articleHP{
+    padding-top: 50px;
+}
+
+/* 文章列表文字 */
+.D__articleListHP{
+    padding-bottom: 28px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/* 文章标题与时间总盒子 */
+.D__articleTitleHP div{
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+/* 文章时间 */
+.D__articleTitleHP span{
+    display: inline-block;
+    margin-right: 25px;
+    color: #7f7f7f;
+}
+
+/* 文章标题链接 */
+.D__articleTitleHP a{
+    color: white;
+}
+
+.D__articleTitleHP a:hover{
+    text-decoration: underline
+}
+/* ----------------------文章结束---------------------- */
+
+
+/* ----------------------足部开始---------------------- */
+.B__footer{
+    height: 45px;
+    margin-top: 50px;
+    border-top: 1px solid white;
+}
+
+/* 文字 */
+.C__text{
+    float: right;
+    padding-top: 5px;
+    color: white;
+    font-size: 10px;
+}
+
+/* ----------------------足部结束---------------------- */

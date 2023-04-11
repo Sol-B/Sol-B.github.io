@@ -1,5 +1,7 @@
 /* ----------------------背景---------------------- */
 body{
+    display: flex;
+    justify-content: center;
     background-color: #1a1a1a;
 }
 /* ----------------------背景结束---------------------- */
@@ -7,8 +9,6 @@ body{
 
 /* ----------------------1000px版心---------------------- */
 .A__centerpage{
-    width: 1000px;
-    margin: 0 auto;
     background-color: #1a1a1a;
 }
 /* ----------------------1000px版心结束---------------------- */
@@ -16,9 +16,9 @@ body{
 
 /* ----------------------所有盒子的标准宽度---------------------- */
 .B__w{
-    width: 900px;
-    padding-top: 45px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
 }
 /* ----------------------所有盒子的标准宽度结束---------------------- */
 
@@ -26,40 +26,34 @@ body{
 /* ----------------------头部---------------------- */
 /* 头部 */
 .C__hearder{
-    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
 /* LOGO */
-.D__logo{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
 .D__logo img{
-    height: 115px;
+    height: 95px;
+    margin-bottom: 20px;
 }
 
 /* h1优化 */
 .C__hearder h1{
-    color: white;
-    font-family: "Courier New", Monospace;
     font-size: 0px;
 }
 
 /* 网站像素字 */
-.C__hearder pre{
-    color: white;
-    font-family: "Courier New", Monospace;
-    font-size: 13px;
-    font-weight: 400;
+.D__logoText img{
+    height: 50px;
 }
 /* ----------------------头部结束---------------------- */
 
 
 /* ----------------------通栏---------------------- */
 .C__nav{
-    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
 
 /* 中间的选项 */
@@ -74,10 +68,10 @@ body{
     padding: 0 20px;
     height: 18px;
     border-right: 1px solid #fff;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 18px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 /* a连接的颜色 */
@@ -94,6 +88,7 @@ body{
 
 /* ----------------------网站说明开始---------------------- */
 .C__explain{
+    display: none;
     padding-top: 40px;
     color: white;
     font-weight: 400;
@@ -105,36 +100,51 @@ body{
 
 /* ----------------------文章开始---------------------- */
 /* 文章整体盒子 */
-.C__article{
+.C__articleHP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 50px;
 }
 
 /* 文章列表文字 */
-.D__articleList{
-    padding-bottom: 28px;
-    color: white;
-    font-weight: 700;
-    font-size: 25px;
+.D__articleListHP{
+    display: none;
+}
+/* 文章标题与时间 */
+.D__articleTitleHP {
+    margin-bottom: 30px;
 }
 
-/* 文章标题与时间 */
-.D__articleTitle div{
-    margin-bottom: 8px;
+/* 文章标题与时间总盒子 */
+.D__articleTitleHP div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 300px;
+    text-align: center;
     font-size: 16px;
 }
 
-.D__articleTitle span{
-    display: inline-block;
-    margin-right: 25px;
-    color: #7f7f7f;
+/* 文章时间 */
+.D__articleTitleHP span{
+    margin-bottom: 10px;
+    color: #979797;
+    line-height: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
 }
 
 /* 文章标题链接 */
-.D__articleTitle a{
+.D__articleTitleHP a{
     color: white;
+    font-size: 18px;
+    line-height: 18px;
 }
 
-.D__articleTitle a:hover{
+.D__articleTitleHP a:hover{
     text-decoration: underline
 }
 /* ----------------------文章结束---------------------- */
@@ -142,8 +152,9 @@ body{
 
 /* ----------------------足部开始---------------------- */
 .B__footer{
+    display: flex;
+    justify-content: center;
     height: 45px;
-    margin-top: 50px;
     border-top: 1px solid white;
 }
 

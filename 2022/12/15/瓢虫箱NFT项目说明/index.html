@@ -24,11 +24,23 @@
       <link rel="shortcut icon" href="/img/favicon.ico"/>
 
       <!-- 引入css -->
-      
+      <!-- css媒体查询前摇 必须前摇否则在手机上不生效 -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <!-- 通用CSS -->
       <link rel="stylesheet" type="text/css" href="/css/base.css">
-      <link rel="stylesheet" type="text/css" href="/css/homepage.css">
+      
+      <!-- 主页CSS -->
+      <!-- 桌面端 -->
+      <link media="all and (min-width: 901px)" rel="stylesheet" type="text/css" href="/css/homepageDesktop.css">
+      <!-- 移动端 -->
+      <link media="all and (max-width: 900px)" rel="stylesheet" type="text/css" href="/css/homepageMobile.css">
+  
       <!-- 引入文章页面CSS -->
-      <link rel="stylesheet" type="text/css" href="/css/article.css">
+      <!-- 桌面端 -->
+      <link media="all and (min-width: 901px)" rel="stylesheet" type="text/css" href="/css/articleDesktop.css">
+      <!-- 移动端 -->
+      <link media="all and (max-width: 900px)" rel="stylesheet" type="text/css" href="/css/articleMobile.css">
+
 
     <meta name="generator" content="Hexo 5.4.2"></head>
 
@@ -40,22 +52,15 @@
         <!-- 所有盒子的标准宽度 -->
         <div class="B__w ">
 
-
           <!-- 头部 -->
           <header class="C__hearder">
-<h1>瓢虫箱</h1>
-<a href="javascript:;" title="瓢虫箱">
-<pre>                                                                                                                         
-██╗      █████╗ ██████╗ ██╗   ██╗██████╗ ██╗██████╗ ██████╗     ██████╗  ██████╗ ██╗  ██╗
-██║     ██╔══██╗██╔══██╗╚██╗ ██╔╝██╔══██╗██║██╔══██╗██╔══██╗    ██╔══██╗██╔═══██╗╚██╗██╔╝
-██║     ███████║██║  ██║ ╚████╔╝ ██████╔╝██║██████╔╝██║  ██║    ██████╔╝██║   ██║ ╚███╔╝ 
-██║     ██╔══██║██║  ██║  ╚██╔╝  ██╔══██╗██║██╔══██╗██║  ██║    ██╔══██╗██║   ██║ ██╔██╗ 
-███████╗██║  ██║██████╔╝   ██║   ██████╔╝██║██║  ██║██████╔╝    ██████╔╝╚██████╔╝██╔╝ ██╗
-╚══════╝╚═╝  ╚═╝╚═════╝    ╚═╝   ╚═════╝ ╚═╝╚═╝  ╚═╝╚═════╝     ╚═════╝  ╚═════╝ ╚═╝  ╚═╝
-</pre>
-</a>
+            <h1>瓢虫箱
+              <a href="/" title="瓢虫箱">
+                <div class="D__logoText"><img src="/img/logoText.png"></div>
+              </a>
+            </h1>
 
-<div class="D__logo"><img src="/img/logo.png"></div>
+            <div class="D__logo"><img src="/img/logo.png"></div>
           </header>
           <!-- 头部结束 -->
 
@@ -108,9 +113,7 @@
 <h3 id="02、电梯宣言"><a href="#02、电梯宣言" class="headerlink" title="02、电梯宣言"></a>02、电梯宣言</h3><p>为了NFT收藏者，他们对自己NFT财产的绝对控制权，以及参与NFT制作的需求。我的瓢虫箱NFT项目是一个可以挖矿产生NFT并交易的产品。它可以绝对防止第三方用户下载，并通过挖矿制作生成独属于用户自己的NFT产品。而不像STEPN，我的产品可以让用户参与制作并且版权归属明确，且不能被第三方复制</p>
 <h3 id="03、产品故事"><a href="#03、产品故事" class="headerlink" title="03、产品故事"></a>03、产品故事</h3><p>2020年10月，本网站服务器发生故障，导致一段绘制瓢虫（ladybird）的HTML源代码逃逸到网络空间。为了隐藏自己不被捕获，源代码不断的复制自身，同时与RGB色彩相结合发生变异，产生了无数颜色各异的瓢虫。为了防止事态进一步恶化，网站采用区块链技术不断捕获变异的瓢虫，同时将被发现的瓢虫束缚在链上防止其再一次逃逸。(以上产品故事纯属虚构，只作为帮助用户理解产品的工具)</p>
 <h3 id="04、项目背景"><a href="#04、项目背景" class="headerlink" title="04、项目背景"></a>04、项目背景</h3><p>随着技术的成熟加上美元持续的量化宽松，加密货币市场在2021年迎来了一波牛市。随着加密货币的水涨船高，与加密货币一起伴生的NFT也成为了继比特币等加密货币之后的另一个新的黑马。随着资本的炒作以及国内知名人物的影响，作者在2022年初就收到了亲戚和朋友关于NFT的问讯，当越来越多的人问我的时候我意识到一些用户可能在NFT方面有一定的需求他们对NFT既好奇又无从下手，不知道NFT是什么，应该怎么玩。</p>
-<img class="jsimg" src="/2022/12/15/瓢虫箱NFT项目说明/01.jpg" /> 
-
-
+<div class="Fu_img"><img src="/2022/12/15/瓢虫箱NFT项目说明/01.jpg" /></div>
     </div>
 
 </article>
@@ -135,9 +138,5 @@
       </div>
 
     </body>
-
-    <!-- 引入文章页面js -->
-    <!-- 图片外边距计算 -->
-    <script src="/js/article-img.js"></script>
     
 </html>
