@@ -85,8 +85,11 @@
     text-decoration: underline;
 }
 
-/* 文章链接 */
-.D__articleContent a{
+/* 文章中的链接 */
+.D__articleContent p a{
+    display: inline-block;
+    overflow-x: auto;
+    width: 85vw;
     color: #00ff0c;
     text-decoration: underline;
 }
@@ -97,11 +100,10 @@
 
 /* 代码快设置 */
 code{
-    overflow-x: auto;
-
     display: inline-block;
-    width: 89vw;
-    padding: 10px 10px 10px 10px;
+    overflow-x: auto;
+    width: 85vw;
+    padding: 10px 0px 10px 10px;
     margin-bottom: 25px;
     background-color: #4f4f4f;
     color: white;
@@ -130,6 +132,15 @@ p code{
     color: white;
     font-size: 18px;
     font-family: Georgia;
+}
+/* 声明块链接 */
+.D__articleState a{
+    color: #00ff0c;
+    text-decoration: underline;
+}
+
+.D__articleState a:hover{
+    color: #ff0000;
 }
 
 /* ----------------------文章结束---------------------- */
