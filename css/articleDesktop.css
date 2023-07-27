@@ -102,7 +102,8 @@ code{
     font-size: 18px;
     font-family: Georgia;
 
-    white-space: pre-wrap;/* pre里的文字强制换行 */
+    /* white-space: pre-wrap;pre里的文字强制换行 */
+    overflow-x: auto;
 }
 
 p code{
@@ -153,6 +154,7 @@ p code{
     max-height: 800px;
 }
 
+/* X号设置 */
 .closeButton{
     z-index: 3;
     display: none;
@@ -162,6 +164,7 @@ p code{
     color: white;
     font-size: 90px;
     line-height: 0px;
+    caret-color: rgba(0,0,0,0); /* 设置光标的颜色为透明 去掉X号附近的光标 */
 }
 
 .closeButton:hover,

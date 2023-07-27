@@ -1,7 +1,6 @@
 /* ----------------------文章开始---------------------- */
 /* 文章整体盒子 */
 .C__article{
-    padding-top: 55px;
     padding: 55px 20px 0px 20px;
 }
 
@@ -98,17 +97,18 @@
 
 /* 代码快设置 */
 code{
+    overflow-x: auto;
+
     display: inline-block;
+    width: 89vw;
     padding: 10px 10px 10px 10px;
     margin-bottom: 25px;
     background-color: #4f4f4f;
     color: white;
     font-size: 18px;
     font-family: Georgia;
-
-    white-space: pre-wrap;/* pre里的文字强制换行 */
 }
-
+/* 代码快设置 - 文章段落中的代码块 */
 p code{
     display: inline-block;
     width: auto;
