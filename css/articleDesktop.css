@@ -92,7 +92,7 @@
 }
 
 /* 代码快设置 */
-code{
+pre{
     display: inline-block;
     width: 870px;
     padding: 10px 10px 10px 20px;

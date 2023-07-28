@@ -99,17 +99,18 @@
 }
 
 /* 代码快设置 */
-code{
+pre{
     display: inline-block;
     overflow-x: auto;
-    width: 85vw;
-    padding: 10px 0px 10px 10px;
+    width: 100vw;
+    padding: 10px 10px 10px 10px;
     margin-bottom: 25px;
     background-color: #4f4f4f;
     color: white;
     font-size: 18px;
     font-family: Georgia;
 }
+
 /* 代码快设置 - 文章段落中的代码块 */
 p code{
     display: inline-block;
